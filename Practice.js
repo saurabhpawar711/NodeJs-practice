@@ -57,7 +57,19 @@
 
 const http = require('http')
 const app = http.createServer((req, res) => {
-    res.end('Saurabh')
+
+const url = req.url;
+    if(url === '/'){
+        res.end('<h1>Welccome to home page</h1>')
+    }
+    else if(url === '/node'){
+        res.end('<h1>Welcome to my Node Js project</h1>')
+    }
+    else if(url === '/about')
+    {
+        res.end('<h1>Welcome to about Us page</h1>')
+    }
+    
 })
 
 app.listen(4000)
