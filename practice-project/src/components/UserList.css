@@ -1,0 +1,27 @@
+.userlist {
+    padding: 10px 20px;
+    background: gray;
+    border-radius: 10px;
+    width: 500px;
+    margin-top: 50px;
+}
+
+.userlist ul {
+    list-style: none;
+    padding: 0;
+}
+
+.username {
+    padding: 10px;
+    background: #fff;
+    border-radius: 5px;
+    margin: 10px;
+    width: 91%;
+    border: #000 solid 1px;
+}
+
+@media screen and (max-width: 500px) {
+    .userlist {
+        width: auto;
+    }
+}
