@@ -27,7 +27,7 @@
   }
   
   .add-user-btn {
-    background-color: #1839f3;
+    background-color: rgb(33, 26, 85);
     color: white;
     padding: 10px 15px;
     border: none;
@@ -38,6 +38,6 @@
   }
   
   .add-user-btn:hover {
-    background-color: #1735e2;
+    background-color: rgb(27, 21, 70);
   }
   
